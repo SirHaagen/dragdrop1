@@ -1,0 +1,50 @@
+
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: Helvetica, sans-serif
+}
+
+.drop-area{
+  width: 500px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 3px dotted #555555;
+  border-radius: 10px;
+  margin: 20px auto;
+}
+.drop-area *{
+  margin: 5px;
+}
+
+.container-messages{
+  height: 80px;
+  text-align: center;
+}
+
+.drop-area button{
+  background-color: #720c72;
+  color: #ffffff;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+.area-dragover{
+  background-color: #d4e4fc;
+  border: 3px dotted #a3a3a3;
+}
+
+.preview{
+  width: 90%;
+  max-height: 80vh;
+  overflow: auto;
+  background-color: #dbd7d7;
+  margin: auto;
+}
